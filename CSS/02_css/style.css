@@ -1,0 +1,41 @@
+.dama{
+    float: left;
+}
+.nine{
+    float: left;
+}
+.six{
+    float: left;
+}
+.joker{
+    float: left;
+}
+.A{
+    float: left;
+}
+.dama1{
+    float: left;
+    margin-top: 234px;
+    margin-left: -662px;
+}
+.nine1{
+    float: left;
+    margin-top: 269px;
+    margin-left: -608px;
+}
+.six1{
+    float: left;
+    margin-top: 198px;
+    margin-left: -720px;
+}
+.joker1{
+    float: left;
+    float: left;
+    margin-top: 349px;
+    margin-left: -498px;
+}
+.A1{
+    float: left;
+    margin-top: 307px;
+    margin-left: -551px
+}
