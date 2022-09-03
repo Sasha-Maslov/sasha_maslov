@@ -10,7 +10,7 @@ ul{
 .block{
     max-width: 400px;
     background-color: black;
-    overflow: auto;
+    overflow: hidden;
 }
 .list{
     color: green;
