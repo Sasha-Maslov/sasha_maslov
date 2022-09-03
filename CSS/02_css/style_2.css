@@ -1,0 +1,17 @@
+li{
+    list-style-type: lower-roman;
+}
+.head{
+    list-style-type: upper-roman;
+}
+ul{
+    max-width: 350px;
+}
+.block{
+    max-width: 400px;
+    background-color: black;
+    overflow: auto;
+}
+.list{
+    color: green;
+}

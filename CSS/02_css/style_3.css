@@ -1,0 +1,19 @@
+.head{
+    background-color: #dbdbdb;
+}
+.Navi{
+    background-color: #ccc;
+    max-width: 15em;
+    float: left;
+}
+.list1{
+    background-color: #aaa;
+    margin-bottom: .2em;
+}
+.fotter{
+    background-color: #ccc;
+    clear: both;
+}
+.clear{
+    clear: both;
+}
