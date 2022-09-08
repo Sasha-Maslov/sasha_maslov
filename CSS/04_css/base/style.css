@@ -1,0 +1,47 @@
+div > div{
+    width: 700px;
+    border: 1px solid #000000;
+    border-radius: 0px 20px 0px 20px;
+}
+p::first-letter{
+    margin-left: 30px;
+}
+ul{
+    list-style-image: url(img/list.jfif);
+}
+li a[href^=WORD]:hover{
+    background-image: url(img/word.jfif);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 19px;
+}
+li a[href^=PDF]:hover{
+    background-image: url(img/pdf.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 19px;
+}
+li a[href^=ZIP]:hover{
+    background-image: url(img/zip.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 19px;
+}
+
+td{
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(201, 201, 201);
+    border-bottom-style: dotted;
+}
+tr:first-child{
+    background-color: #727272;
+}
+tr:nth-child(3){
+    background-color: #a1a1a1;
+}
+tr:nth-child(5){
+    background-color: #a1a1a1;
+}
+tr:hover{
+      background-color: aqua;
+}
