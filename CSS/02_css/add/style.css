@@ -1,0 +1,43 @@
+.frame1{
+    padding: 2em;
+    background-color: #666666;
+    background-image: url(img_method_one/b-r.gif), url(img_method_one/b-l.gif), url(img_method_one/t-l.gif), url(img_method_one/t-r.gif), url(img_method_one/l.gif), url(img_method_one/r.gif), url(img_method_one/t.gif), url(img_method_one/b.gif);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, repeat-x, repeat-x;
+    background-position: bottom right, bottom left, top left, top right, left, right, top, bottom;
+}
+.p1{
+    color: white;
+}
+.h1{
+    color: white;
+}  
+.head{
+    background-color: #dbdbdb;
+    display: flex;
+}
+.Navi{
+    background-color: #ccc; 
+    width: 300px;
+    padding-left: 10px;
+}
+.List{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.list1{
+    background-color: #aaa;
+    margin-bottom: .2em;
+    padding-left: 10px;
+}
+.list2{
+    background-color: #aaa;
+    padding-left: 10px;
+}
+.fotter{
+    background-color: #ccc;
+    padding-left: 10px;
+}
+.sec{
+    background-color: #aaa;
+}
