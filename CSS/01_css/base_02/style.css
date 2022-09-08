@@ -6,7 +6,7 @@ p{
     }
 
 .head{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Merriweather', serif;
     text-align: right;
     margin-right: 5px;
 }
@@ -16,7 +16,7 @@ body{
 div{
     background-color: white;
     width: 610px;
-    height: 500px;
+    height: 560px;
     margin-top: 280px;
     margin-left: 690px;
 }
