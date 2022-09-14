@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th>ФИО</th>
+            <th>Пол</th>
+            <th>Должность</th>
+            <th>Дата рож.</th>
+            <th>Данные 01</th>
+            <th>Данные 02</th>
+        </tr>
+        <tr>
+            <td>Иванов Иван Иванович</td>
+            <td>М</td>
+            <td>начальник</td>
+            <td>01.01.1960</td>
+            <td>458867</td>
+            <td>345553</td>
+        </tr>
+        <tr>
+            <td>Петрова Илона Ивановна</td>
+            <td>Ж</td>
+            <td>секретарь</td>
+            <td>01.01.1992</td>
+            <td>453367</td>
+            <td>377453</td>
+        </tr>
+        <tr>
+            <td>Сидоров Сидор Сидорович</td>
+            <td>М</td>
+            <td>бухгалтер</td>
+            <td>01.01.1986</td>
+            <td>4567</td>
+            <td>3453</td>
+        </tr>
+        <tr>
+            <td>Пукин Иван Тимофеевич</td>
+            <td>М</td>
+            <td>водитель</td>
+            <td>01.01.1978</td>
+            <td>45667</td>
+            <td>345553</td>
+        </tr>
+        <tr>
+            <td>Иванов Иван Иванович</td>
+            <td>М</td>
+            <td>водитель2</td>
+            <td>01.01.1962</td>
+            <td>456887</td>
+            <td>344453</td>
+        </tr>
+    </table>
+    <div>
+        <button>Нет скрытых строк</button>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function($) {
+            $( "tr:nth-child(1)" ).click(function() {
+                $( "tr:nth-child(1)" ).hide(  function() {
+              });
+            })
+            $( "tr:nth-child(2)" ).click(function() {
+                $( "tr:nth-child(2)" ).hide(  function() {
+              });
+            })
+            $( "tr:nth-child(3)" ).click(function() {
+                $( "tr:nth-child(3)" ).hide(  function() {
+              });
+            })
+            $( "tr:nth-child(4)" ).click(function() {
+                $( "tr:nth-child(4)" ).hide(  function() {
+              });
+            })
+            $( "tr:nth-child(5)" ).click(function() {
+                $( "tr:nth-child(5)" ).hide(  function() {
+              });
+            })
+            $( "tr:nth-child(6)" ).click(function() {
+                $( "tr:nth-child(6)" ).hide(  function() {
+              });
+            })
+            $('button').on('click', function(){
+                $('tr').show(function(){
+                })
+            }).on('mouseleave', function(){
+                $('button').html('Нет скрытых строк')
+            })
+            $('tr').on('click', function(){
+                $('button').html('Показать все строки')
+            })
+        })
+        
+    </script>
+</body>
+</html>
